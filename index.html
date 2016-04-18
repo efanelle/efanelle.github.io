@@ -2,50 +2,7 @@
   <html>
     <head>
       <title>Booze and Books || Home Page</title>
-
-      <!--Style for img and increase font-size  -->
-      <style>
-        img {
-          float: right;
-          height: 125px;
-          width: 175px;
-          margin-top: -88px;
-        }
-        body{
-          font-family:fantasy;
-          background-color:darksalmon;
-        }
-        #container {
-            width: 960px;
-            margin:0 auto;
-        }
-        #nav a{
-          color:blue;
-          text-decoration:none;
-          border: 2px solid black;
-          padding:2.5px;
-        }
-        #header{
-          text-decoration: underline;
-        }
-        #infoTag{
-          text-align: center;
-        }
-        #footer{
-          font-family: Helvetica;
-          font-weight: bolder;
-        }
-        .important{
-          font-weight:bold;
-          font-size: 120%;
-        }
-        .nice-to-know{
-          font-style:italic;
-        }
-        .booktitle{
-          text-decoration: underline;
-        }
-      </style>
+        <link href="styles.css" rel="stylesheet">
 
       </head>
 
@@ -53,13 +10,14 @@
 <!--Headings and introduction  -->
 <div id="header">
   <h1> Booze and Books</h1>
-  <img src="http://8-themes.com/wp-content/uploads/2015/11/Food___Drinks_Wine_and_books_079275_.jpg">
+  <img id="grapes" src="http://8-themes.com/wp-content/uploads/2015/11/Food___Drinks_Wine_and_books_079275_.jpg">
 </div>
       <div id="nav">
         <p><a href="index.html"> Main Page</a>
-           <a href="aboutus.html">About Us</a>
+           <a href="aboutUs.html">About Us</a>
            <a href="mediapage.html">Media Page</a>
            <a href="blog.html">Blog</a>
+           <a href="bookpicker.html">Book Picker</a>
         </p>
       </div>
 
@@ -91,7 +49,7 @@
 
       <p> Join us as we launch our online book club
         communuity.  We will provide great books and
-        <span class="important"> even better cocktails.</span>
+        <span class="big"> even better cocktails.</span>
         Please visit our website at
         <a href="http://www.boozeandbooks.com"> www.boozeandbooks.com</a></p>
 
@@ -104,9 +62,9 @@
           your very best to finish each book before
           the "meeting" so you are able to participate in the dicussion
           and review of the book.  Our main goal is to learn about new books,
-          great cocktails, and to <span class="important nice-to-know"> have fun</span>.</p>
+          great cocktails, and to <span class="big nice-to-know"> have fun</span>.</p>
 
-          <p class="important booktitle">Sign up below to join <span class="nice-to-know"> Booze and Books:</span></p>
+          <p class="big booktitle">Sign up below to join <span class="nice-to-know"> Booze and Books:</span></p>
 
           <div>
           <form action="https://formspree.io/efanelle@gmail.com" method="POST">
