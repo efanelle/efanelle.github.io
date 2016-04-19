@@ -11,10 +11,10 @@ a {
   width: 960px;
   margin:0 auto;
 }
-#content h4{
+#blogentry h4{
   margin-top: -15px;
 }
-#content{
+#blogentry{
   background-color: lightyellow;
 }
 #header{
