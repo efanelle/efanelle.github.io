@@ -90,6 +90,9 @@ a {
   font-style:italic;
   text-decoration:underline;
     }
+.special{
+  font-style: italic;
+}
 .date {
   font-size: 12px;
     }
