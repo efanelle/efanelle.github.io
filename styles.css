@@ -7,6 +7,9 @@ a {
   color:blue;
   text-decoration: none;
 }
+p{
+  font-size: 1.1em;
+}
 #container{
   width: 960px;
   margin:0 auto;
@@ -17,7 +20,7 @@ a {
 #blogentry{
   background-color: lightyellow;
 }
-#header{
+#header h1{
   text-decoration: underline;
 }
 #nav a{
@@ -54,6 +57,10 @@ a {
 
 #comments h3{
   text-decoration: underline;
+  }
+  #countdown {
+    float:left;
+    position:fixed;
   }
 .important{
   font-weight:bold;
