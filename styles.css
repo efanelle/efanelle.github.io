@@ -79,7 +79,7 @@ p{
   width: 315px;
   height: 600px;
   border: 1px solid black;
-  display: inline-table;
+  display: inline-block;
   align: center
     }
 .big{
