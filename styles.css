@@ -58,10 +58,6 @@ p{
 #comments h3{
   text-decoration: underline;
   }
-  #countdown {
-    float:left;
-    position:fixed;
-  }
 .important{
   font-weight:bold;
   font-size: 120%;
