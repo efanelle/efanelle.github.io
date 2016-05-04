@@ -3,6 +3,7 @@
   <head>
     <link href="styles.css" rel="stylesheet">
     <title>Which book to read?</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   </head>
     <body>
       <div id="container">
@@ -26,26 +27,116 @@
           help you:</p>
       </div>
 
-      <div id="questions">
-        <p>Do you want to read <a href="fiction.html">fiction</a>
-          or <a href="nonfiction.html">non-fiction</a>?</p>
+    <div id="questions">
+
+      <div id="first">
+        <p>Do you want to read fiction or non-fiction?</p>
+          <form>
+            <input type="button" name ="genre" value ="Fiction" onclick="fiction()">
+            <input type="button" name ="genre" value="Non-Fiction" onclick="nfiction()">
+          </form>
+      </div>
+
+      <div id="second">      
+        <p>Do you want to read a funny or serious book?</p>
+          <form>
+            <input type="button" name="humor" value="Funny" onclick="reward('bernadette')">
+            <input type="button" name="humor" value="Serious" onclick="reward('storyteller')">
+          </form>
+        </div>
+
+      <div id="third">
+        <p>Do you want to read a funny or serious book?</p>
+        <form>
+          <input type="button" name="nfhumor" value="Funny" onclick="reward('chelsea')">
+          <input type="button" name="nfhumor" value="Serious" onclick="reward('holmes')">
+        </form>
+
 
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+</div>
+
+      <div id="books">
+
+      <div id="bernadette" class = "invisible">
+      <img class = "bookpic" src="bernadette.jpg">
+        <div class="border">
+        <p>Hover for Information about your book</p>
+        <p class ="toggler">  Bernadette Fox is notorious. To her Microsoft-guru husband,
+            she's a fearlessly opinionated partner; to fellow private-school
+            mothers in Seattle, she's a disgrace; to design mavens, she's a
+            revolutionary architect, and to 15-year-old Bee,
+            she is a best friend and, simply, Mom. Then Bernadette disappears.</p>
+       
+        </div>
+      </div>
+
+
+      
+     <div id="storyteller" class= "invisible">
+         <img class = "bookpic" src="storyteller.jpg">
+          <div class="border">
+          <p>Hover for Information about your book</p>
+          <p class ="toggler">Sage Singer befriends an old man who's particularly beloved in
+              her community. Josef Weber is everyone's favorite retired teacher
+              and Little League coach. They strike up a friendship at the
+              bakery where Sage works. One day he asks Sage for a favor: to
+              kill him. Shocked, Sage refuses... and then he confesses his
+              darkest secret—he deserves to die, because he was a Nazi SS guard.
+              Complicating the matter? Sage's grandmother is a Holocaust survivor.
+
+              <br>What do you do when evil lives next door? Can someone who's
+                committed a truly heinous act ever atone for it with subsequent
+                good behavior? Should you offer forgiveness to someone if you
+                aren't the party who was wronged? And most of all—if Sage even
+                considers his request—is it murder, or justice?</p>
+            </div>
+          </div>
+        
+      
+    <div id="chelsea" class= "invisible">
+     <img class = "bookpic" src="chelsea.jpg">
+      <div class="border">
+        <p>Hover for Information about your book</p>
+        <p class ="toggler">In this hilarious, deliciously skewed collection, Chelsea mines her
+            past for stories about her family, relationships, and career that
+            are at once singular and ridiculous. Whether she's convincing her
+            third-grade class that she has been tapped to play Goldie Hawn's
+            daughter in the sequel to Private Benjamin, deciding to be more
+            egalitarian by dating a redhead, or looking out for a foulmouthed,
+            rum-swilling little person who looks just like her... only smaller,
+            Chelsea has a knack for getting herself into the most outrageous
+            situations. 
+
+            <br>Are You There, Vodka? It's Me, Chelsea showcases the candor
+              and irresistible turns of phrase that have made her one of the
+              freshest voices in comedy today</p>
+        </div>
+      </div>
+    
+
+    <div id ="holmes" class= "invisible">
+       <img class = "bookpic" src="holmes.jpg">
+        <div class="border">
+
+          <p>Hover for Information about your book</p>
+        <p class ="toggler">Bringing Chicago circa 1893 to vivid life, Erik Larson's
+            spellbinding bestseller intertwines the true tale of
+            two men--the brilliant architect behind the legendary
+            1893 World's Fair, striving to secure America's place
+            in the world; and the cunning serial killer who used
+            the fair to lure his victims to their death. Combining
+            meticulous research with nail-biting storytelling, Erik
+            Larson has crafted a narrative with all the wonder of
+            newly discovered history and the thrills of the best fiction. 
+
+            <br>"As absorbing a piece of popular history as one will ever
+              hope to find." --San Francisco Chronicle</p>
+          </div>
+        </div>
+    
+
+     </div>
 
       <hr>
           <div id="footer">
@@ -57,7 +148,7 @@
 </div>
 
 
-
+<script src="script.js"></script>
   </body>
 
 

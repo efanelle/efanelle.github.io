@@ -58,6 +58,9 @@ p{
 #comments h3{
   text-decoration: underline;
   }
+#questions{
+  min-height:500px;
+}
 .important{
   font-weight:bold;
   font-size: 120%;
@@ -65,6 +68,31 @@ p{
 }
 .booktitle{
   text-decoration: underline;
+}
+/*.bookpic{
+  float:left;
+  max-width:50%;
+}*/
+.toggler {
+display:none;
+padding:10px;
+  
+}
+.border{
+  text-align:center;
+  border:6px solid black;
+  min-height: 300px;
+  width:50%;
+  float:right;
+}
+.invisible{
+  width:0;
+  height:0;
+  overflow: hidden;
+}
+.visible{
+  width: auto;
+  height: auto;
 }
 .admin  img {
   width: 200px;
@@ -82,6 +110,7 @@ p{
   font-weight:bold;
   font-size: 120%;
     }
+
 .link{
   color:blue;
     }
