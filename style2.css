@@ -71,37 +71,31 @@ p{
 .booktitle{
   text-decoration: underline;
 }
-/*.toggler {
+.toggler {
 display:none;
 padding:10px;
   
-}*/
+}
 .bookpic{
-  height:auto;
+  min-height:300px;
+  max-width:310px;
   border:6px solid black;
-  width:300px;
-  height:auto;
 }
 #books p{
-  display:none;
   text-align: center;
   padding-top: 10px;
-
 }
 
 #books{
-  margin-left: 325px;
   min-height:500px;
- /* margin-top: 90px;*/
 }
-/*.border{
+.border{
   text-align:center;
   border:6px solid black;
   min-height: 300px;
   width:50%;
   float:right;
-}*/
-
+}
 .invisible{
   width:0;
   height:0;

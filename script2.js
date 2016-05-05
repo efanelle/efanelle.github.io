@@ -20,14 +20,14 @@ var reward = function(id){
 }
 
 
-// $('.border').hover(function(){
-// 	$('.border p').toggle();
-// })
-
-$('.bookpic').hover(function(){
-	$('.bookpic').toggle();
-
+$('.border').hover(function(){
+	$('.border p').toggle();
 })
+
+// $('.bookpic').hover(function(){
+// 	$('.bookpic').toggle();
+
+// })
 
 
 
