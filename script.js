@@ -52,6 +52,10 @@ $('.bookpic').hover(function(){
 
 })
 
+$('#formsubmit').submit(function(event){
+      event.preventDefault();
+      $('#comments').append('<p>' + $('#formsubmit input').val() + "<br>" + $('#formsubmit textarea').val() + '</p>');
+    })
 
 
 

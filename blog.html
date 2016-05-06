@@ -4,6 +4,7 @@
     <title>Booze and Books || Blog </title>
 
 <link href="styles.css" rel="stylesheet">
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   </head>
   <body>
     <div id="container">
@@ -83,7 +84,7 @@
         </div>
 
     <div>
-      <form action="form-responses/new" method="POST">
+      <form id = "formsubmit" action="form-responses/new" method="POST">
       <h4 class="nice-to-know"> User comments:</h4>
       Name: <input type="text" name="firstname" placeholder="Sue Jones" size="53"><br>
       <textarea rows="8" cols="60"></textarea><br>
@@ -99,6 +100,7 @@
       <h5 id="infoTag"> ~~~~Booze And Books: Since 2016~~~~</h5>
     </div>
   </div>
+  <script src="script.js"></script>
   </body>
 
 </html>
