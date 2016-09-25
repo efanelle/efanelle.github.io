@@ -1,150 +1,54 @@
+/* your beautiful css styling goes here! */
 
-body{
-  font-family:fantasy;
-  background-color:darksalmon;
+/* Note: an asteroid image is included in this repo.
+Feel free to use it if you like. */
+/* START SOLUTION */
+body {
+  margin: 0;
+  font-family: helvetica;
+  position: relative;
+  background-color: gray;
+  height:100%;
+  width: 100%
 }
-a {
-  color:blue;
-  text-decoration: none;
+/*iframe {
+  position: absolute;
+  z-index: 1;
+}*/
+/*.board {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: blue;
+}*/
+.mouse {
+  position: absolute;
+  background-color: orange;
 }
-p{
-  font-size: 1.1em;
+.astroid {
+  background-image: url('asteroid.png');
+  background-size: 100% 100%;
+  position: absolute;
 }
-#container{
-  width: 960px;
-  margin:0 auto;
+.vis {
+  background-color: black;
 }
-#blogentry h4{
-  margin-top: -15px;
-}
-#blogentry{
-  background-color: lightyellow;
-}
-#header h1{
-  text-decoration: underline;
-}
-#nav a{
-  border: 2px solid black;
-  padding:2.5px;
-}
-#grapes {
-  float: right;
-  height: 125px;
-  width: 175px;
-  margin-top: -88px;
-}
-#infoTag {
-  text-align: center;
-}
-#footer {
-  font-family: Helvetica;
-  font-weight: bolder;
-}
-#video{
-  height:200px;
-  width:340px;
-}
-#caption{
-  text-decoration: overline;
-  margin-top: 5px;
-}
-#winebooks {
+.scoreboard {
+  width: 250px;
   height: 100px;
-  width: 75px;
-  float:left;
-  margin-right: 10px;
-  }
-
-#comments h3{
-  text-decoration: underline;
-  }
-#questions{
-  min-height:500px;
-  text-align:center;
-  font-size:1.2em;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  border-radius: 3px;
 }
-.important{
-  font-weight:bold;
-  font-size: 120%;
-  color: crimson;
+.scoreboard div {
+  line-height: 33px;
+  font-size: 25px;
+  float: right;
 }
-.booktitle{
-  text-decoration: underline;
-}
-/*.toggler {
-display:none;
-padding:10px;
-  
-}*/
-.bookpic{
-  height:auto;
-  border:6px solid black;
-  width:300px;
-  height:auto;
-}
-#books p{
-  display:none;
-  text-align: center;
-  padding-top: 10px;
+.board {
 
 }
-
-#books{
-  margin-left: 325px;
-  min-height:500px;
-  margin-top: 90px;
-}
-/*.border{
-  text-align:center;
-  border:6px solid black;
-  min-height: 300px;
-  width:50%;
-  float:right;
-}*/
-
-.invisible{
-  width:0;
-  height:0;
-  overflow: hidden;
-}
-.visible{
-  width: auto;
-  height: auto;
-}
-.admin  img {
-  width: 200px;
-  height: 200px;
-  padding-left: 57.5px;
-    }
-.admin {
-  width: 315px;
-  height: 600px;
-  border: 1px solid black;
-  display: inline-block;
-  align: center
-    }
-.big{
-  font-weight:bold;
-  font-size: 120%;
-    }
-
-.link{
-  color:blue;
-    }
-.names {
-  text-decoration: underline;
-  text-align: center;
-    }
-.nice-to-know{
-  font-style:italic;
-  text-decoration:underline;
-    }
-.special{
-  font-style: italic;
-}
-.date {
-  font-size: 12px;
-    }
-.replies{
-  margin-left: 20px;
-    }
+/* END SOLUTION */
